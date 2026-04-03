@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jade-bg" x1="56" y1="40" x2="456" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143F2F" />
+      <stop offset="1" stop-color="#0E2C20" />
+    </linearGradient>
+    <radialGradient id="jade-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(162 344) rotate(18.6) scale(198 173)">
+      <stop stop-color="#F2D66C" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#F2D66C" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="jade-wing" x1="265" y1="116" x2="380" y2="274" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34A853" />
+      <stop offset="1" stop-color="#1C6A39" />
+    </linearGradient>
+    <linearGradient id="jade-accent" x1="280" y1="190" x2="360" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5DF76" />
+      <stop offset="1" stop-color="#D3A93C" />
+    </linearGradient>
+    <filter id="jade-shadow" x="48" y="77" width="414" height="382" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dy="12" />
+      <feGaussianBlur stdDeviation="14" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.03 0 0 0 0 0.13 0 0 0 0 0.09 0 0 0 0.28 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#jade-bg)" />
+  <circle cx="164" cy="345" r="150" fill="url(#jade-glow)" />
+  <g filter="url(#jade-shadow)">
+    <path d="M80 251C139 217 195 212 249 228C281 192 331 165 432 153C374 190 334 217 306 242C371 244 422 268 454 312C399 300 349 300 299 319C308 369 295 420 262 455C260 404 247 365 216 333C180 359 138 372 76 366C128 335 165 310 190 287C146 279 110 266 80 251Z" fill="white" />
+    <path d="M251 227C274 164 326 121 410 99C371 143 338 185 308 238C338 235 368 244 398 262C361 265 331 278 299 304C281 276 266 251 251 227Z" fill="url(#jade-wing)" />
+    <path d="M268 239C293 204 322 180 364 164C339 190 320 215 307 239C327 241 347 247 373 261C344 263 322 272 295 293C287 275 278 257 268 239Z" fill="url(#jade-accent)" />
+    <circle cx="213" cy="223" r="11" fill="#143F2F" />
+  </g>
+</svg>

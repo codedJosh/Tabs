@@ -1,0 +1,17 @@
+{
+  "name": "JADE Debate Tab",
+  "short_name": "JADE Tab",
+  "description": "Tournament management for debate events, judging, publishing, standings, motions, and private access.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#edf7f1",
+  "theme_color": "#123f2f",
+  "icons": [
+    {
+      "src": "jade-hummingbird-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

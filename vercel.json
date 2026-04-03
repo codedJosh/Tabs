@@ -1,38 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "version": 2,
   "trailingSlash": false,
-  "builds": [
-    {
-      "src": "api/ping.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "api/jade-cloud.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/ping",
-      "dest": "/api/ping.js"
-    },
-    {
-      "src": "/api/jade-cloud",
-      "dest": "/api/jade-cloud.js"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",

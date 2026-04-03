@@ -76,6 +76,8 @@ Vercel files already included:
 - `api/jade-cloud.js` for shared cloud auth, private-link login, and workspace sync
 - `api/ping.js` as a lightweight deployment check
 
+This Vercel setup intentionally does not use custom `builds`, `routes`, or SPA rewrites. JADE runs from the root `index.html`, and Vercel can expose the `api/` folder directly as functions.
+
 Private access links and account access links use the live site URL automatically once the website is opened from its real hosted domain.
 
 ## Supabase cloud setup

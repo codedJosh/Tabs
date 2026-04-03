@@ -1,9 +1,7 @@
-export default {
-  fetch() {
-    return Response.json({
-      ok: true,
-      service: "jade-ping",
-      provider: "vercel",
-    });
-  },
-};
+export function GET() {
+  return Response.json({
+    ok: true,
+    service: "jade-ping",
+    provider: "vercel",
+  });
+}

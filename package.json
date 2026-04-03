@@ -7,6 +7,6 @@
     "build": "node ./scripts/host-build.cjs"
   },
   "engines": {
-    "node": ">=20"
+    "node": "20.x"
   }
 }

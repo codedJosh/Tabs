@@ -1,13 +1,8 @@
-export async function handler() {
-  return {
-    statusCode: 200,
-    headers: {
-      "Content-Type": "application/json; charset=utf-8",
-      "Cache-Control": "no-store",
-    },
-    body: JSON.stringify({
-      ok: true,
-      service: "jade-ping",
-    }),
-  };
+export default function handler(request, response) {
+  response.status(200).json({
+    ok: true,
+    service: "jade-ping",
+    provider: "vercel",
+    method: request.method,
+  });
 }

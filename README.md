@@ -73,8 +73,8 @@ Vercel files already included:
 
 - [vercel.json](/Users/jo/Documents/New%20project/vercel.json)
 - [package.json](/Users/jo/Documents/New%20project/package.json)
-- `api/jade-cloud.mjs` for shared cloud auth, private-link login, and workspace sync
-- `api/ping.mjs` as a lightweight deployment check
+- `api/jade-cloud.js` for shared cloud auth, private-link login, and workspace sync
+- `api/ping.js` as a lightweight deployment check
 
 Private access links and account access links use the live site URL automatically once the website is opened from its real hosted domain.
 

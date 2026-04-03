@@ -1,4 +1,4 @@
-const crypto = require("node:crypto");
+import crypto from "node:crypto";
 
 const WORKSPACE_TABLE = process.env.JADE_SUPABASE_TABLE || "jade_workspaces";
 const WORKSPACE_ID = process.env.JADE_WORKSPACE_ID || "primary";
@@ -254,7 +254,7 @@ function assertWorkspaceState(state) {
   return state;
 }
 
-exports.handler = async (event) => {
+export async function handler(event) {
   try {
     if (event.httpMethod === "GET") {
       const workspaceState = await readWorkspaceState();
@@ -623,4 +623,4 @@ exports.handler = async (event) => {
       error: error.message || "JADE cloud request failed.",
     });
   }
-};
+}

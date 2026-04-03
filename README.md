@@ -73,7 +73,6 @@ Vercel files already included:
 
 - [vercel.json](/Users/jo/Documents/New%20project/vercel.json)
 - [package.json](/Users/jo/Documents/New%20project/package.json)
-- [scripts/host-build.cjs](/Users/jo/Documents/New%20project/scripts/host-build.cjs)
 - `api/jade-cloud.mjs` for shared cloud auth, private-link login, and workspace sync
 - `api/ping.mjs` as a lightweight deployment check
 

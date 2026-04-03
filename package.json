@@ -3,9 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "description": "JADE debate tabbing platform",
-  "scripts": {
-    "build": "node ./scripts/host-build.cjs"
-  },
   "engines": {
     "node": "20.x"
   }
